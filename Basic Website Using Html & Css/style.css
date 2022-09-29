@@ -1,0 +1,466 @@
+*{
+    margin: 0px;
+}
+.logo img{
+    width: 190px;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 3px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(44, 32, 11, 0.973);
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    width: 800px;
+    margin-top: 25px;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.nav-links a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(209, 155, 84);
+}
+.header{
+    background-image: url(./background.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.header h1{
+    font-family: sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: rgb(209, 155, 84);
+    padding-right: 43%;
+    padding-top: 39px;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(44, 32, 11, 0.973);
+    height: 80vh;
+    align-items: center;
+}
+.menu img{
+    width: 400px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+.menu img:hover{
+    transform: scale(1.2);
+}
+.menu-headings{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 5px 5px 6px gray;
+}
+.menu .item1,.item2,.item3{
+    width: 400px;
+}
+
+.menu p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    text-align: justify;
+    color: rgb(161, 117, 59);
+}
+.menu h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 10px;
+    color: antiquewhite;
+}
+.footer{
+    background-color: rgba(44, 32, 11, 0.973);
+    height: 40vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icons i{
+    font-size: 35px;
+}
+.icons{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+/* this is ourteam page code */
+
+.ot-header{
+    background-image: url(./ourteam1.jpg);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.ot-header h1{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    margin-left: 30px;
+    text-shadow: 4px 2px goldenrod;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: -20px;
+    grid-row-gap: 30px;
+    background-color: bisque;
+    width: 85%;
+    margin: auto;
+    padding-top: 10px;
+    padding-left: 100px;
+}
+
+.gallery img{
+    width: 250px;
+    border-radius: 10px;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+
+.gal-heading{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color: orangered;
+    padding: 10px;
+    text-shadow: 4px 2px gold;
+}
+
+.gallery img:hover{
+    transform: scale(1.2);
+}
+
+/* services page code  */
+
+.services-header{
+    background-image: url(./ourteam2.jpg);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-header h1{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    background-color: rgb(68, 67, 67 , 0.5);
+}
+
+.what-we-do{
+    background-color: black;
+    color: white;
+}
+
+.what-we-do h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: thin;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-shadow: 4px 2px goldenrod;
+}
+
+.wwd-item{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.wwd-item img{
+    width: 100%;
+    height: 390px;
+    border-radius: 5px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: goldenrod;
+    width: 35%;
+    border: 3px solid white;
+}
+
+/* this is about us file code  */
+.about{
+    background-color: goldenrod;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about p{
+    text-align: center;
+    font-family: inherit;
+    font-size: 20px;
+}
+.about h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline 3px; 
+    padding-bottom: 20px;
+}
+
+.joinus-btn{
+   background-color: black;
+   color: white; 
+   font-family: monospace;
+   text-decoration: none;
+   padding: 10px;
+   margin-top: 10px;
+}
+
+/* media queries */
+
+@media(max-width:576px){
+    /* home page code  */
+    .logo img{
+        width: 90px;
+    }
+    *{
+        margin: 0px;
+    }
+    
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(53, 52, 52);
+        padding: 0px;
+    }
+    
+    .nav-links{
+        display: flex;
+        list-style: none;
+        width: 400px;
+        padding-left: 10px;
+        justify-content: space-between;
+        margin-right: 2px;
+    }
+    
+    .nav-links a{
+        text-decoration: none;
+        font-size: 10px;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: rgb(202, 202, 202);
+    }
+    .menu-headings{
+        font-size: 20px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-shadow: 5px 5px 6px rgb(184, 32, 32);
+    }
+
+    .header{
+        background-image: url(./ourteam3.jpg);
+        height: 90vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .header h1{
+        font-family: sans-serif;
+        font-size: 20px;
+        text-shadow: 3px 1px goldenrod;
+        text-transform: uppercase;
+        color: orangered;
+        text-align: center;
+        padding-right: 90px;
+        padding-top: 0px;
+    }
+
+    .menu{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(78, 66, 84);
+        height: 185vh;
+        align-items: center;
+        margin-top: 0px;
+        border: 2px solid gray;
+    }
+    .menu p{
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 25px;
+        width: 350px;
+        font-size: 10px;
+        text-align: center;
+        padding-left: 20px;
+        color: rgb(161, 117, 59);
+       
+    }
+    .menu h1{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        padding-bottom: 5px;
+        color: antiquewhite;
+        font-size: 20px;
+    }
+    .menu img{
+        width: 350px;
+        align-items: center;
+        border-radius: 1px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        transition-property: transform;
+        transition-duration: 1s;
+    }
+    .menu .item1,.item2,.item3{
+        padding-bottom: 5px;
+        padding-left: 5px;
+    }
+
+    .gallery{
+        display: grid;
+        grid-template-columns: auto;
+        background-color: bisque;
+        width: 85%;
+        margin: auto;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .gallery img{
+        display: block;
+        margin: auto
+    }
+
+    .services-header h1{
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 50px;
+        background-color: rgb(68, 67, 67 , 0.5);
+        text-align: center;
+    }
+    .about{
+        background-color: rgb(199, 157, 60);
+        height: 97vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .about p{
+        text-align: center;
+        font-family: inherit;
+        font-size: 20px;
+    }
+    .about h1{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-decoration: underline 3px; 
+        padding-bottom: 20px;
+    }
+    .what-we-do h1{
+        text-align: center;
+        font-size: 20px;
+        font-family: sans-serif;
+        font-weight: thin;
+        padding-top: 15px;
+        padding-bottom: 5px;
+        text-shadow: 4px 2px goldenrod;
+    }
+    
+    .wwd-item{
+        display: flex;
+        width: 90%;
+        margin: auto;
+        justify-content: space-around;
+    }
+    
+    .wwd-item img{
+        width: 100%;
+        height: 290px;
+        border-radius: 5px;
+    }
+    
+    .center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        background-color: goldenrod;
+        width: 35%;
+        border: 3px solid white;
+    }
+    .services-header{
+        background-image: url(./ourteam2.jpg);
+        height: 60vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .services-header h1{
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 40px;
+        background-color: rgb(68, 67, 67 , 0.5);
+    }
+
+}
+
+@media(min-width:577px) and (max-width:768px){
+    
+}
+
+@media(min-width:769px) and (max-width:991px){
+    
+}
+
+@media(min-width:992px) and (max-width:1199px){
+    
+}
+
+@media(min-width:1200px) and (max-width:1400px){
+    
+}
+
+@media(min-width:1401px){
+
+}
